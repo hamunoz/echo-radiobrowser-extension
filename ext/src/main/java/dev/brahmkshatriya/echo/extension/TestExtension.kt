@@ -101,9 +101,8 @@ class TestExtension : ExtensionClient, HomeFeedClient, TrackClient, RadioClient,
         setting = settings
     }
 
-    private val api1Link = "https://fi1.api.radio-browser.info"
-    private val api2Link = "https://de2.api.radio-browser.info"
-    private val api3Link = "https://de1.api.radio-browser.info"
+    private val api1Link = "https://de2.api.radio-browser.info"
+    private val api2Link = "https://de1.api.radio-browser.info"
     private val stationsSubdirectory = "/json/stations/bycountrycodeexact"
     private val countriesSubdirectory = "/json/countries"
     private val searchSubdirectory = "/json/stations/search"
