@@ -64,8 +64,8 @@ class TestExtension : ExtensionClient, HomeFeedClient, TrackClient, RadioClient,
             "Radio Browser Server",
             "radio_browser_server",
             "Select which server to use",
-            listOf("Server 1", "Server 2", "Server 3"),
-            listOf(api1Link, api2Link, api3Link),
+            listOf("Server 1", "Server 2"),
+            listOf(api1Link, api2Link),
             0
         ),
         SettingList(
@@ -101,9 +101,9 @@ class TestExtension : ExtensionClient, HomeFeedClient, TrackClient, RadioClient,
         setting = settings
     }
 
-    private val api1Link = "https://de2.api.radio-browser.info"
-    private val api2Link = "https://de1.api.radio-browser.info"
-    private val api3Link = "https://de2.api.radio-browser.info"
+    private val api1Link = "https://de1.api.radio-browser.info"
+    private val api2Link = "https://de2.api.radio-browser.info"
+   // private val api3Link = "https://de2.api.radio-browser.info"
     private val stationsSubdirectory = "/json/stations/bycountrycodeexact"
     private val countriesSubdirectory = "/json/countries"
     private val searchSubdirectory = "/json/stations/search"
